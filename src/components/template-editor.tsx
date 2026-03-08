@@ -79,7 +79,7 @@ export function TemplateEditor({
             style={styles.input}
             value={name}
             onChange={(e) => setName(e.target.value)}
-            placeholder="e.g. Upwork Proposal"
+            placeholder="e.g. Code Review"
           />
 
           <label style={{ ...styles.label, marginTop: 16 }}>
@@ -89,7 +89,7 @@ export function TemplateEditor({
             style={styles.input}
             value={description}
             onChange={(e) => setDescription(e.target.value)}
-            placeholder="Short description of what this template does"
+            placeholder="Short description of what this prompt does"
           />
 
           <label style={{ ...styles.label, marginTop: 16 }}>
